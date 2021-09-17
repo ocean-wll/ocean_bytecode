@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>ocean_bytecode_bytebuddy_track_01</module>
+        <module>ocean_bytecode_javassist_01</module>
     </modules>
 
     <properties>
