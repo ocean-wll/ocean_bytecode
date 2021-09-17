@@ -21,6 +21,14 @@ public class GenerateClazzMethod {
 
         CtClass ctClass = pool.makeClass("pers.ocean.agent.javassist.MathUtil");
 
+        /*
+            1.CtClass.doubleType、intType、floatType等 8 个基本类型和一个voidType，也就是空的返回类型。
+            2.传递和返回的是对象类型时，那么需要时用；pool.get(Double.class.getName()，进行设置。
+            3.当需要设置多个入参时，需要在数组中以此设置入参类型；new CtClass[]{CtClass.doubleType, CtClass.doubleType}。
+            4.在方法体中需要取得入参并计算时，需要使用 $1、$2 …，数字表示入参的位置。$0 是 this。
+            5.CtField 设置属性字段，并赋值。
+            6.Javassist 中的装箱/拆箱。
+         */
         // 属性字段
         CtField ctField = new CtField(CtClass.doubleType, "π", ctClass);
         ctField.setModifiers(Modifier.PRIVATE + Modifier.STATIC + Modifier.FINAL);
