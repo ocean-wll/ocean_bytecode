@@ -13,6 +13,7 @@
         <module>ocean_bytecode_javassist_01</module>
         <module>ocean_bytecode_javassist_02</module>
         <module>ocean_bytecode_javassist_03</module>
+        <module>ocean_bytecode_javassist_04</module>
     </modules>
 
     <properties>
@@ -45,6 +46,13 @@
             <artifactId>javassist</artifactId>
             <version>3.28.0-GA</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.78</version>
+        </dependency>
+
 
     </dependencies>
 </project>
