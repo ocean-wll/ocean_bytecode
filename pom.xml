@@ -12,6 +12,7 @@
         <module>ocean_bytecode_bytebuddy_track_01</module>
         <module>ocean_bytecode_javassist_01</module>
         <module>ocean_bytecode_javassist_02</module>
+        <module>ocean_bytecode_javassist_03</module>
     </modules>
 
     <properties>
