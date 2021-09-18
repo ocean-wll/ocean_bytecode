@@ -14,6 +14,7 @@
         <module>ocean_bytecode_javassist_02</module>
         <module>ocean_bytecode_javassist_03</module>
         <module>ocean_bytecode_javassist_04</module>
+        <module>ocean_bytecode_javassist_05</module>
     </modules>
 
     <properties>
